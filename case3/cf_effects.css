@@ -25,7 +25,7 @@ html{
 /* Body Styles */
 
 body{
-    background-color: rgba(255,255,255,0.3)
+    background-color: rgba(255,255,255,0.3);
 }
 
 /* Body Header Styles */
@@ -45,6 +45,7 @@ section aside{
 section aside h1{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    margin-top: 0px;
 }
 section#left{ 
     perspective: 450px;
@@ -85,7 +86,7 @@ div#cube_right{
     transform: translateX(200px) rotateY(-90deg);
 }
 div#cube_top{
-    transform: translateY(-200px) rotateX(90deg);
+    transform: translateY(-200px) rotateX(-90deg);
 }
 div#cube_bottom{
     transform: translateY(200px) rotateX(90deg);
